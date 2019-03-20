@@ -1,0 +1,58 @@
+.vertical-menu {
+  width: 250px; /* Set a width if you like */
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.vertical-menu a {
+  background-color: #444f51; /* Grey background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #bdbec0; /* Dark grey background on mouse-over */
+  color: #444f51;
+}
+
+.vertical-menu a.active {
+  background-color: #dd7500; /* Add a green color to the "active/current" link */
+  color: white;
+  text-align: center;
+}
+
+.notifications {
+  background-color: #bdbec0;
+  color: #444f51;
+  padding: 5px;
+  border-radius: 8px;
+  float: right;
+  text-align: center; 
+  display: inline;
+  /*
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-between;*/
+  /*position: absolute;*/
+}
+
+.vertical-menu .element{
+  text-align: left; 
+  display: unset; 
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.vertical-menu a:hover > h4 {
+  background-color: #a03033;
+  color: #bdbec0;
+}
+
+option{
+  background-color: #444f51;
+  font-size: 16px;
+}

@@ -1,0 +1,156 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444f51;
+    border-radius: 5px;
+  }
+
+  
+  li {
+    float: left;
+    font-weight: 200;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+  }
+  
+  li a {
+    display: block;
+    color: #bdbec0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 0.4cm;
+    margin-bottom: 0.4cm;
+    font-family: 'Ubuntu';
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    
+    background-color: #bdbec0;
+    color: #444f51;
+    border-bottom-color:  #dd7500;
+    border-bottom-width: 4px;
+  }
+
+  #logo {
+    margin-top: 0.2cm;
+    margin-bottom: 0.5cm;
+  }
+
+  #div1 {
+    float: left;
+  }
+
+  #div2 {
+    float: left;
+  }
+
+  #menubar {
+    clear: both;
+  }
+
+  #settings{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-settings {
+    vertical-align: top;
+    margin-right: 12px;
+  }
+
+  #account{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-account {
+    vertical-align: top;
+    margin-right: 12px;
+  }
+  #messages{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-messages {
+    vertical-align: top;
+    margin-right: 12px;
+  }
+  #favorites{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-favorites {
+    vertical-align: top;
+    margin-right: 12px;
+  }
+
+  #img-user {
+    vertical-align: top;
+    margin-right: 12px;
+    border-radius: 150px;
+    border: orangered 2px solid;
+    
+  }
+  #img-user.hover {
+    filter: invert(1);
+  }
+
+  a{
+    padding: 5px;
+    border-radius: 8px;
+    float: right;
+    text-align: center; 
+    display: inline;
+    vertical-align: middle;
+    margin-top: 0.5cm;
+    margin-bottom: 0.4cm;
+  }
+
+  #lista-usuario{
+    background-color: #444f51;
+    color: #bdbec0;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+  }
+
+  #lista-usuario :hover{
+    color: #444f51;
+    background-color: #bdbec0;
+  }
+
+  #bd {
+    font-family: "Ubuntu";
+  }
+
+  img.pequeña{
+    max-width: 16px; max-height: 16px;
+  }
+
+  img.mediana{
+    max-width: 100px; max-height: 100px;
+  }
+
+  img.grande{
+    max-width: 200px; max-height: 200px;
+  }
+
+  .span-logo {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+iframe{
+  height: 500px;
+  width: 400px;
+}
+
+.module{
+  border-left: 5px;
+}
